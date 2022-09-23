@@ -22,4 +22,4 @@ _Project features_
 ## Mobile
 <img src="src/data/assets-services/Adopt me - site (Mobile).png" width= "400" />
 
-🌐 ## Online Project: https://adoptmeisa.netlify.app/
+<h2>🌐Online Project: https://adoptmeisa.netlify.app/</h2>
