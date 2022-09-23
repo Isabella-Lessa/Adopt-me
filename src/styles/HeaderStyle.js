@@ -132,6 +132,9 @@ export const UL2 = styled.ul`
     @media screen and (max-width: 490px){
         width: 70%
     }
+    @media screen and (max-width: 801px){
+        display: none
+    }
 `
 
 export const LINK = styled(Link)`
