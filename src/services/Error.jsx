@@ -13,7 +13,7 @@ const Error = () => {
                 <S.BTN><S.LINK to='/'>Voltar</S.LINK></S.BTN>
             </S.ErrorTxt>
             <S.FIG>
-                <S.IMG src={ErrorDog}></S.IMG>
+                <S.IMG src={ErrorDog}/>
             </S.FIG>
         </S.ErrorContainer>
     )

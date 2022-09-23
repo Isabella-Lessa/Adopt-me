@@ -40,7 +40,7 @@ const Cat = () => {
                         <S.P>Conheça nossos amigos felinos ansiosos por um novo dono:</S.P>
                     </S.BoxTxt>
                     <S.FIG>
-                        <S.CatGif src={CatGif}></S.CatGif>
+                        <S.CatGif src={CatGif}/>
                     </S.FIG>
                 </S.Info>
                 <S.CardCat>

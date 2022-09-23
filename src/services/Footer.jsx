@@ -12,12 +12,12 @@ const Footer = () => {
         <S.Footer>
             <S.BoxFooter>
                 <S.BoxIcons>
-                    <S.ImgIcon src={ImgIcon1}></S.ImgIcon>
-                    <S.ImgIcon src={ImgIcon2}></S.ImgIcon>
-                    <S.ImgIcon src={ImgIcon3}></S.ImgIcon>
-                    <S.ImgIcon src={ImgIcon4}></S.ImgIcon>
-                    <S.ImgIcon src={ImgIcon5}></S.ImgIcon>
-                    <S.ImgIcon src={ImgIcon6}></S.ImgIcon>
+                    <S.ImgIcon src={ImgIcon1}/>
+                    <S.ImgIcon src={ImgIcon2}/>
+                    <S.ImgIcon src={ImgIcon3}/>
+                    <S.ImgIcon src={ImgIcon4}/>
+                    <S.ImgIcon src={ImgIcon5}/>
+                    <S.ImgIcon src={ImgIcon6}/>
                 </S.BoxIcons>
                 <S.Copy>
                     ©  Copyright 2022 - Desenvolvido por Isabella Lessa.
