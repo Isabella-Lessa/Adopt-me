@@ -17,3 +17,7 @@ _Project features_
 + Responsive website
 
 ## Desktop
+<img src="src/data/assets-services/Adopt me - site (Desktop).png" width= "600" />
+
+## Mobile
+<img src="src/data/assets-services/Adopt me - site (Mobile).png" width= "400" />
