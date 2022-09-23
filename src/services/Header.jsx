@@ -37,15 +37,6 @@ const Header = () => {
         )
     }
 
-    const handleLogo2 = () => {
-            <>
-                <S.FigLogo2>
-                    <S.ImgLogo2 src={PetHouse} alt='logo'/>
-                </S.FigLogo2>
-                <S.Title2>Adopt Me!</S.Title2>
-            </>
-    }
-
     return(
         <S.Header>
             <S.HomeMenu>

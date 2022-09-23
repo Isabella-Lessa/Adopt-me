@@ -161,6 +161,22 @@ export const BoxImg = styled.figure`
     }
 `
 
+export const FirstDog = styled.img`
+    width: 540px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+
+    @media screen and (max-width: 618px){
+        width: 400px;
+        height: 300px
+    }
+    @media screen and (max-width: 450px){
+        width: 300px;
+        height: 200px
+    }
+`
+
 export const ImgDog = styled.img`
     width: 540px;
     height: 400px;

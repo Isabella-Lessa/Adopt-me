@@ -68,45 +68,7 @@ export const FigLogo = styled.figure`
     }
 `
 
-export const FigLogo2 = styled.figure`
-    width: 8%;
-    height: 5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    @media screen and (max-width: 734px){
-        width: 8%;
-        height: 50%
-    }
-    @media screen and (max-width: 582px){
-        width: 10%
-    }
-`
-
 export const ImgLogo = styled.img`
-    width: 3.5em;
-    transition: 0.5s all;
-    &:hover{
-        cursor: pointer;
-        transform: scale(1.2);
-    }
-
-    @media screen and (min-width: 800px){
-        width: 60px
-    }
-    @media screen and (max-width: 734px){
-        width: 50px;
-    }
-    @media screen and (max-width: 470px){
-        width: 40px;
-    }
-    @media screen and (max-width: 328px){
-        width: 30px;
-    }
-`
-
-export const ImgLogo2 = styled.img`
     width: 3.5em;
     transition: 0.5s all;
     &:hover{
@@ -146,24 +108,6 @@ export const Title = styled.h1`
     }
 `
 
-export const Title2 = styled.h1`
-    font-family: 'Montserrat';
-    font-size: 22px;
-    &:hover{
-        cursor: pointer;
-    }
-
-    @media screen and (max-width: 626px){
-        font-size: 18px
-    }
-    @media screen and (max-width: 470px){
-        font-size: 15px
-    }
-    @media screen and (max-width: 328px){
-        font-size: 12px
-    }
-`
-
 export const UL = styled.ul`
     width: 60%;
     height: 6em;
@@ -175,6 +119,7 @@ export const UL = styled.ul`
     @media screen and (max-width: 800px){
         display: none
     }
+
 `
 
 export const UL2 = styled.ul`
