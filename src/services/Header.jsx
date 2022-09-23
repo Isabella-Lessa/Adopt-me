@@ -15,11 +15,13 @@ const Header = () => {
     const handleList = () => {
 
         return(
-            <S.UL2>
-                <S.LI2><S.LINK2 to='/'>Sobre</S.LINK2></S.LI2>
-                <S.LI2><S.LINK2 to='/dogpages'>Cachorros</S.LINK2></S.LI2>
-                <S.LI2><S.LINK2 to='/catpages'>Gatos</S.LINK2></S.LI2>
-            </S.UL2>
+            <>
+                <S.UL2>
+                    <S.LI2><S.LINK2 to='/'>Sobre</S.LINK2></S.LI2>
+                    <S.LI2><S.LINK2 to='/dogpages'>Cachorros</S.LINK2></S.LI2>
+                    <S.LI2><S.LINK2 to='/catpages'>Gatos</S.LINK2></S.LI2>
+                </S.UL2>
+            </>
         )
     }
 
@@ -35,14 +37,23 @@ const Header = () => {
         )
     }
 
+    const handleLogo2 = () => {
+            <>
+                <S.FigLogo2>
+                    <S.ImgLogo2 src={PetHouse} alt='logo'/>
+                </S.FigLogo2>
+                <S.Title2>Adopt Me!</S.Title2>
+            </>
+    }
+
     return(
         <S.Header>
             <S.HomeMenu>
-                <S.FigMenu onClick={handleMenu}>
+                <S.FigMenu onClick={ handleMenu }>
                     <S.ImgMenu src={menu === true ? OpenMenu : ClosedMenu} alt='menu'/>
                 </S.FigMenu>
                 { menu && handleList() }
-                { menu === false ? handleLogo() : ""  }
+                { menu === false ? handleLogo() : "" }
                 <S.UL>
                     <S.LI><S.LINK to='/'>Sobre</S.LINK></S.LI>
                     <S.LI><S.LINK to='/dogpages'>Cachorros</S.LINK></S.LI>

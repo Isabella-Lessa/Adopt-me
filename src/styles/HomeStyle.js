@@ -20,7 +20,7 @@ export const Container = styled.section`
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.25);
 
     @media screen and (max-width: 800px){
-        background-position: 80%;
+        background-position: 70%;
         align-items: flex-end;
         justify-content: flex-start;
         padding: 80px;
@@ -31,8 +31,10 @@ export const Container = styled.section`
         padding: 40px
     }
     @media screen and (max-width: 328px){
-        background-position: 50%;
         padding: 20px
+    }
+    @media screen and (max-width: 390px){
+        padding: 9px
     }
 `
 
@@ -67,8 +69,8 @@ export const TextFriend = styled.p`
     @media screen and (max-width: 532px){
         font-size: 150%;
     }
-    @media screen and (max-width: 470px){
-        font-size: 120%
+    @media screen and (max-width: 390px){
+        font-size: 130%;
     }
 `
 
@@ -89,8 +91,8 @@ export const TextAdopt = styled.p`
     @media screen and (max-width: 502px){
         font-size: 90%;
     }
-    @media screen and (max-width: 470px){
-        font-size: 70%
+    @media screen and (max-width: 390px){
+        font-size: 75%;
     }
 `
 
