@@ -1,4 +1,4 @@
-<h1>Adopt Me!</h1>
+<h1>🐶 Adopt Me!</h1>
 
 > Status: Developing ⚠️
 
@@ -22,4 +22,4 @@ _Project features_
 ## Mobile
 <img src="src/data/assets-services/Adopt me - site (Mobile).png" width= "400" />
 
-<h2>🌐Online Project: https://adoptmeisa.netlify.app/</h2>
+<h2>🌐 Online Project: https://adoptmeisa.netlify.app/</h2>
